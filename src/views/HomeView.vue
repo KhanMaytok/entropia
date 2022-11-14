@@ -9,7 +9,7 @@
                 <img
                   src="https://renge.fueko.net/content/images/2020/07/renge.svg"
                   alt="Renge"
-              />
+                />
               </RouterLink>
             </h1>
           </div>
@@ -104,9 +104,9 @@
                 >
                   <img
                     srcset="
-                    /images/arcana_main.png   500w,
-                    /images/arcana_main.png   800w,
-                    /images/arcana_main.png 1100w
+                      /images/arcana_main.png  500w,
+                      /images/arcana_main.png  800w,
+                      /images/arcana_main.png 1100w
                     "
                     sizes="(max-width:480px) 240px, (max-width:768px) 200px, (max-width:1024px) 290px, 350px"
                     src="/images/arcana_main.png"
