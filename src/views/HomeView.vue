@@ -5,11 +5,12 @@
         <div class="header-wrap">
           <div class="header-logo">
             <h1 class="is-image">
-              <a href="https://renge.fueko.net"
-                ><img
+              <RouterLink to="/">
+                <img
                   src="https://renge.fueko.net/content/images/2020/07/renge.svg"
                   alt="Renge"
-              /></a>
+              />
+              </RouterLink>
             </h1>
           </div>
           <div class="header-nav">
@@ -68,12 +69,10 @@
               </ul>
               <ul>
                 <li class="signup global-button">
-                  <a href="https://renge.fueko.net/signup/"
-                    >Register for free</a
-                  >
+                  <RouterLink to="/about">Register for free</RouterLink>
                 </li>
                 <li class="signin">
-                  <a href="https://renge.fueko.net/signin/">Sign in</a>
+                  <RouterLink to="/about">Sign in</RouterLink>
                 </li>
                 <li id="search-open" class="header-search">
                   <span>Search</span
@@ -93,69 +92,6 @@
         </div>
       </header>
       <main class="global-main">
-        <div class="pinned-section">
-          <div class="pinned-pages global-special items-1">
-            <h2><span>Announcements</span></h2>
-            <article class="item-1">
-              <h3>
-                <a href="/signup/" class="global-underline"
-                  >Get started with Renge</a
-                >
-              </h3>
-            </article>
-          </div>
-          <div class="pinned-posts global-special">
-            <h2><span>Don’t miss it</span></h2>
-            <article class="item-1">
-              <h3>
-                <a
-                  href="/everything-has-beauty-but-not-everyone-sees-it/"
-                  class="global-underline"
-                  >Everything has beauty, but not everyone sees it</a
-                >
-              </h3>
-              <div class="global-meta">
-                <a href="/author/charles/">Charles Barrett</a>
-                and others
-              </div>
-            </article>
-            <article class="item-2">
-              <h3>
-                <a
-                  href="/design-is-a-mirror-reflecting-the-culture/"
-                  class="global-underline"
-                  >Design is a mirror, reflecting the culture</a
-                >
-              </h3>
-              <div class="global-meta">
-                <a href="/author/victoria/">Victoria West</a> &
-                <a href="/author/david/">David Cole</a>
-              </div>
-            </article>
-            <article class="item-3">
-              <h3>
-                <a href="/i-always-loved-aesthetics/" class="global-underline"
-                  >I always loved aesthetics</a
-                >
-              </h3>
-              <div class="global-meta">
-                <a href="/author/hannah/">Hannah Weastell</a> &
-                <a href="/author/victoria/">Victoria West</a>
-              </div>
-            </article>
-            <article class="item-4">
-              <h3>
-                <a href="/the-difference-is-quality/" class="global-underline"
-                  >The difference is quality</a
-                >
-              </h3>
-              <div class="global-meta">
-                <a href="/author/david/">David Cole</a> &
-                <a href="/author/charles/">Charles Barrett</a>
-              </div>
-            </article>
-          </div>
-        </div>
         <div class="loop-section">
           <div class="loop-wrap">
             <article
@@ -168,12 +104,12 @@
                 >
                   <img
                     srcset="
-                      /content/images/size/w500/2020/06/photo-1583519661527-8e25c6c13420.jpeg   500w,
-                      /content/images/size/w800/2020/06/photo-1583519661527-8e25c6c13420.jpeg   800w,
-                      /content/images/size/w1100/2020/06/photo-1583519661527-8e25c6c13420.jpeg 1100w
+                    /images/arcana_main.png   500w,
+                    /images/arcana_main.png   800w,
+                    /images/arcana_main.png 1100w
                     "
                     sizes="(max-width:480px) 240px, (max-width:768px) 200px, (max-width:1024px) 290px, 350px"
-                    src="/content/images/size/w500/2020/06/photo-1583519661527-8e25c6c13420.jpeg"
+                    src="/images/arcana_main.png"
                     alt="Now we’re getting somewhere"
                   />
                 </a>
@@ -189,7 +125,7 @@
                     <a
                       href="/now-were-getting-somewhere/"
                       class="global-underline"
-                      >Now we’re getting somewhere</a
+                      >Descubre la Telaraña</a
                     >
                   </h2>
                   <p class="item-excerpt">
